@@ -5,10 +5,8 @@
     "sdk": "org.gnome.Sdk",
     "command": "lightsoff",
     "finish-args": [
-        /* X11 + XShm access */
         "--share=ipc",
         "--socket=fallback-x11",
-        /* Wayland access */
         "--socket=wayland",
         "--device=dri"
     ],
@@ -19,8 +17,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/lightsoff/48/lightsoff-48.1.tar.xz",
-                    "sha256": "2ec99501713dbcd13c5a565a2e118cc4cc2b502836b387a7736cfba40a8b3989",
+                    "url": "https://download.gnome.org/sources/lightsoff/50/lightsoff-50.0.tar.xz",
+                    "sha256": "baa0c17431e85eeede5e649f53162f70b4eb1e7c7a6f16a4ecaa3027b6531578",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "lightsoff"
@@ -30,4 +28,3 @@
         }
     ]
 }
-
